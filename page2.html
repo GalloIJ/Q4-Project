@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT PROJECT</title>
+    <style>
+        body {
+            background-color: #ffe69d;
+            color: #0f0f0f;
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav img {
+            float: left;
+            margin-right: 10px;
+        }
+        .nav-left {
+            float: left;
+        }
+        .nav-right {
+            float: right;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        .search-container {
+            float: right;
+        }
+        input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+        }
+        input[type=text]:focus {
+            outline: none;
+        }
+        .circle {
+            border-radius: 100%;
+        }
+        table {
+            margin-top: 80px; 
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 20px;
+            border: 1px solid #000;
+        }
+        th {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="github logo" width="50" height="50" class="circle">
+            <a href="main.html">Main Page</a>
+            <a href="page2.html">Page 2</a>
+            <a href="page3.html">Page 3</a>
+            <a href="page4.html">Page 4</a>
+        </div>
+        <div class="nav-right">
+            <div class="search-container">
+                <form>
+                    <input type="text" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <table border="1" cellpadding="20px" cellspacing="0">
+        <tr>
+            <th colspan="3"><h1 id="top">CHARACTERS IN NOLI ME TANGERE</h1></th>
+        </tr>
+        <tr>
+            <td><img src="https://static.wikia.nocookie.net/noli-me-tangere/images/d/d9/AviIbarra.png/revision/latest/thumbnail/width/360/height/360?cb=20200523011813" width="200" alt="Ibarra"></td>
+            <td><a href="#ibarra">Juan Crisostomo Ibarra</a></td>
+            <td><li>Juan Crisostomo Ibarra is the protagonist of the novel. He is a young Filipino who returns to the Philippines after studying in Europe.</li></td>
+        </tr>
+        <tr>
+            <td><img src="https://static.wikia.nocookie.net/noli-me-tangere/images/4/4e/AviMariaClara.png/revision/latest?cb=20200523015219" width="200" alt="Maria Clara"></td>
+            <td><a href="#maria_clara">Maria Clara de los Santos</a></td>
+            <td><li>Maria Clara is the daughter of Captain Tiago and is known for her beauty and grace. She is the love interest of Ibarra.</li></td>
+        </tr>
+        <tr>
+            <td><img src="https://static.wikia.nocookie.net/noli-me-tangere/images/4/41/AviElias.png/revision/latest/thumbnail/width/360/height/360?cb=20200523015847" width="200" alt="Elias"></td>
+            <td><a href="#elias">Elias</a></td>
+            <td><li>Elias is a mysterious and strong young man who becomes an important figure in Ibarra's life and in the fight against injustice.</li></td>
+        </tr>
+        <tr>
+            <td><img src="https://static.wikia.nocookie.net/noli-me-tangere/images/8/8d/AviDamaso.png/revision/latest?cb=20200523011955" width="200" alt="Padre Damaso"></td>
+            <td><a href="#padre_damaso">Padre Damaso</a></td>
+            <td><li>Padre Damaso is a corrupt and abusive friar who wields power in the town and is a source of conflict in the story.</li></td>
+        </tr>
+        <tr>
+            <td><img src="https://static.wikia.nocookie.net/noli-me-tangere/images/e/eb/AviSisa.png/revision/latest?cb=20191130021219" width="200" alt="Sisa"></td>
+            <td><a href="#sisa">Sisa</a></td>
+            <td><li>Sisa is a poor and mentally unstable woman who suffers greatly and is the mother of two main characters in the story.</li></td>
+        </tr>
+    </table>
+    
+    <center>
+        <a href="#top"><input type="button" value="Back to top"></a>
+    </center>
+    <br/>
+    <a href="https://noli-me-tangere.fandom.com/wiki/Noli_Me_Tangere_Wiki" target="_blank">Read more:</a>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
